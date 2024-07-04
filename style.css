@@ -27,9 +27,11 @@
   .center{
     align-items: center;
   }
-  .text-center{
-    text-align: center;
-  }
   .photo{
     margin: 10px;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
   }
