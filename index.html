@@ -1,10 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
+    <header>
+     <h1 class="text-center">Aleksander Andreew<br>programmer</h1>
+    </header>
+    <nav>
+        <nav class="nav">
+            <ul class="line">
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#language" class="nav-link">Languages</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            </ul>
+          </nav>
+    </nav>
+    <main class="center">
+        <section class="container" >
+            <div class="line center" >
+                         <img src="./images/avatar.jpg" alt="my photo" class="photo">
 
+                               <h2 id="contacts">Contacts:</h2>
+                                     <ul>
+                                       <li>Phone number: 111-11-111-11-11</li>
+                                       <li>email: example@example.com</li>
+                                       <li>Addres: City, Street 15</li>
+                                    </ul>
+            </div>
+        </section>
+
+        <section class="section" id="about_me">
+            <h2>About me:</h2>
+            <p>Was born. Studied. Working.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 >Skills</h2>
+            <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>JS</li>
+            </ul>
+        </section>
+        <section class="section" id="education">
+            <h2 >Education:</h2>
+            <ul>
+               <li>School</li>
+               <li>University</li>
+
+            </ul>
+        </section>
+        <section class="section" id="language">
+            <h2 >Languages:</h2>
+            <ul>
+               <li>English (A2)</li>
+               <li>Russian</li>
+               <li>Belorussian</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 >Code</h2>
+<pre>
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        background-color: antiquewhite;
+      }
+</pre>
+        </section>
+    </main>
+<footer>
+    <div class="text-center">
+    <a href="https://rs.school/courses/javascript-preschool-ru"><img class="logo" src="./images/rs_school_js.svg" alt="rolling-scopes-school"> <br>RS School. Подготовительный этап</a>
+    <a href="https://github.com/AleksAndreew"> <p>My github profile</p></a>
+    <p>2025</p>
+   </div>
+</footer>
 </body>
 </html>
