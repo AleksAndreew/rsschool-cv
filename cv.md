@@ -1,7 +1,7 @@
 Andreew Aleksander
 
 ## Contact:
-Number: 111-11-111-11-11 email: example@example.com Adres: City, Street 15
+Number:111&#8209;11&#8209;111&#8209;11&#8209;11 email: example@example.com Adres: City, Street 15
 
 ## Self-Introduction:
 My goal: to study.
