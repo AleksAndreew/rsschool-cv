@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: antiquewhite;
+}
+ul{
+padding:0px 15px;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  padding: 0 50px 0px 0px;
+  line-height: 50px;
+}
+.logo{
+   height: 50px;
+  }
+.center{
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}
+.photo{
+  margin: 10px;
+}
+a{
+color: black;
+}
